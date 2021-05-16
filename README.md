@@ -11,7 +11,7 @@ https://docs.mongodb.com/manual/administration/install-community/
 
 ## 2, Migrate data into your local mondb server
 - put CSV files under repo './stocks_data'
-- python3 migrate.py
+- run python3 migrate.py
 
 
 
