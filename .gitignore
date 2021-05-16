@@ -1,0 +1,44 @@
+# IDE and mac OS noise
+.idea/
+.DS_Store
+
+# Model test data
+cased_L-12_H-768_A-12/
+cased_L-12_H-768_A-12.zip
+
+# Temporary envvar files
+/.env*
+migrations/.env*
+/*.sql
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+.idea/
+node_modules/
+__pycache__/
+*.py[co]
+
+
+.coverage
+.coverage.*
+htmlcov/
+tmp/
+.pytest_cache/
+.ipynb
+.svg
