@@ -63,7 +63,7 @@ class Migration:
 if __name__ == "__main__":
 
     test = Migration(connect_uri='mongodb://localhost:27017/', 
-                    data_dir = './stocks_data',
+                    data_dir = '../stocks_data',
                     db_name='stocks')
 
     test.initialize_collections()
